@@ -1,0 +1,8 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/Damarjati-NPC/damarjati-npc.github.io.git
+	branch = master
+[submodule "damarjati-npc.github.io"]
+	path = damarjati-npc.github.io
+	url = https://github.com/Damarjati-NPC/damarjati-npc.github.io.git
+	branch = master
