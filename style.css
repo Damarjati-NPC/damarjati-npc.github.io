@@ -1,11 +1,8 @@
-p {color: red;
+p {color: black;
 font-family: calibri,serif;
-font-size: 30px;
 line-height: 30px;
-color: darkred;
 }
-td {color: blue;}
-tr {color: green;}
+
 h1 {font-weight: normal;}
 h1 {font-variant: small-caps;
 	font-style: italic;
@@ -18,7 +15,24 @@ h2 {font-variant: normal;
 body {
 	background-image: url(image/background8.jpeg);
 }
-a {color: inherit;}
+a {
+			text-decoration: none;
+			color: black;
+		}
+
+		a:link {
+			color: black;
+		}
+
+		a:hover {
+			font-style: italic;
+			color: darkred;
+		}
+
+		a:active {
+			font-style: italic;
+			color: darkred;
+		}
 .container {
 	width: 960px;
 	margin: auto;
