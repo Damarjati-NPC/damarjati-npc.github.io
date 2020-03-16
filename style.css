@@ -1,36 +1,98 @@
-body { margin:20px 40px; font-size:0.9em; font-family: "Myriad Pro", "Trebuchet MS", Arial; font-size:14px; border:1px solid #000; background: url(images/bckg.jpg) repeat-x #8fe909; }
-a { color:#64a520; text-decoration:none;}
-a:hover { text-decoration:underline;}
-p { padding: 0 10px 5px 10px; }
-h1 { text-transform:uppercase; font-size:18px; color:#fff; }
-h1 span { background-color:#477b1d; padding:0 10px;}
+p {color: red;
+font-family: calibri,serif;
+font-size: 30px;
+line-height: 30px;
+color: darkred;
+}
+td {color: blue;}
+tr {color: green;}
+h1 {font-weight: normal;}
+h1 {font-variant: small-caps;
+	font-style: italic;
+	color: #758513;
+	text-align: center;
+}
+h2 {font-variant: normal;
+	color: rgb(19,133,92);
+}
+body {
+	background-image: url(background8.jpeg);
+}
+a {color: inherit;}
+.container {
+	width: 960px;
+	margin: auto;
+	background-color: white;
+	background-image: url(bg7.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.header {
+	padding: 5px
+}
+.judul {
+	font-weight: bold;
+}
 
-#top { height:30px; background-color:#477b1d;border-bottom:4px solid #000; }
-#name { float:left; border-left:20px solid #70c32e; border-right:20px solid #70c32e;}
-#name a{ color:#fff; font-weight:bold; font-size:24px; text-transform:uppercase; background-color:#70c32e; text-decoration:none;}
-#split { float:left; height:30px; width:20px; border-left:3px solid #000000;}
-#slogan { float:left; color:#fff; text-transform:uppercase; padding:3px 0 0 10px;}
-#contact_us{ float:right; background-color:#7abb37;height:20px;  padding:2px 5px;}
-#contact_us a { color:#fff; text-transform:uppercase; text-decoration:none; }
-#logo { background:url(images/head_bckg.jpg) no-repeat #78ce31;}
-#logo_text { float:right; width:200px; height:80px; background-color:#70c32e; margin:40px 20px 53px 0; font-family: Tahoma, Arial; font-size:11px; color:#fff; padding:10px; font-weight:bold; }
-#menu { background:#70c32e; height:21px; width:600px; margin: 0 auto; clear:both; border:1px solid #a8f534; text-align:center;  color:#fff; padding-top:4px;}
-#menu a { color:#fff; font-size:14px; text-transform:uppercase; font-weight:bold; text-decoration:none; margin:0 20px; margin-top:3px;}
-#menu a:hover{ color:#d4ffa1}
-.item img { background-color:#fff; padding:6px; border:1px solid #d0d0d0;}
-.description { display:block; float:right; width:220px; padding: 10px 20px 20px 0; line-height:12px; font-family:Tahoma, Arial;}
-p.additional { margin:0 10px; color:#9c9c9c; font-size:10px; line-height:12px; border-top:1px solid #bdbdbd; padding: 10px 0; font-weight:normal; font-family:Tahoma, Arial;}
+.header ul li {
+	display: inline-block;
+margin-right: 5px;
+}
 
-#text { margin: 0 292px 0 0;  padding:10px;}
-#text li { list-style:none; padding-left:20px; background:url(images/li.gif) no-repeat 0px 4px;line-height:18px;}
-#sidebar { float:right; width:245px; padding: 20px 20px 0 30px; font-size:10px; }
-#sidebar a{ font-weight:bold; }
-#sidebar h2 { margin:0; padding:0 0 20px 0; text-transform:uppercase; color:#000; font-size:18px;}
+.header {
+	background-color: darkred;
+}
+.header a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+.header a:hover {
+	background-color: lightblue;
+	color: white;
+}
+/*.hero {
+	height: 300px;
+	background-image: url(bg9.jpg);
+	background-position: 0 -80px;
+	background-size: cover;
+	border-top: 5px solid #9D1CFF;
+	border-bottom: 5px solid #FF1F4F;
+} */
 
-#main { float:left; background:url(images/sidebar_bckg.gif) no-repeat top right #fff; }
-#footer { background:url(images/footer_bckg.gif) repeat-x #000; height:55px; clear:both;  }
-#left_footer { float:left; padding:20px 0 0 30px; color:#fff; font-size:12px;}
-#left_footer a { color:#fff;}
-#left_footer a:hover { text-decoration:none;}
-#right_footer { float:right;  padding:20px 30px 0 0; color:#fff;  font-size:12px; text-align:right;}
-#right_footer a { color:#fff;}
+.main span {
+	color: green;
+}
+#p1 {color: #D900BC;} /* selector menggunakan id="p1" ini tidak disarankan untuk css*/
+.p2 {color: #B800D9;} /* selector menggunakan class="p2" */
+p.p2 {font-weight: bold} /* selector menggunakan class="p2"dalam arti (css tolong carikan saya paragraf,tapi yang memiliki polap p2)*/
+
+.main {
+	width: 600px;
+	padding: 10px;
+	box-sizing: border-box;
+	float: right;
+}
+
+.clear {
+	clear: right;
+}
+
+.sidebar {
+	float: left;
+	padding: 20px;
+	width: 300px;
+}
+.sidebar img {
+	height: 30px;
+	width: 70px;
+	float: left;
+}
+.break {
+	clear: right;
+}
+.sidebar p {
+	font-size: 12px;
+	font-family: calibri;
+	line-height: 18px;
+}
