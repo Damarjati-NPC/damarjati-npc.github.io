@@ -16,14 +16,14 @@ h2 {font-variant: normal;
 	color: rgb(19,133,92);
 }
 body {
-	background-image: url(background8.jpeg);
+	background-image: url(image/background8.jpeg);
 }
 a {color: inherit;}
 .container {
 	width: 960px;
 	margin: auto;
 	background-color: white;
-	background-image: url(bg7.png);
+	background-image: url(image/bg7.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }
@@ -63,9 +63,6 @@ margin-right: 5px;
 .main span {
 	color: green;
 }
-#p1 {color: #D900BC;} /* selector menggunakan id="p1" ini tidak disarankan untuk css*/
-.p2 {color: #B800D9;} /* selector menggunakan class="p2" */
-p.p2 {font-weight: bold} /* selector menggunakan class="p2"dalam arti (css tolong carikan saya paragraf,tapi yang memiliki polap p2)*/
 
 .main {
 	width: 600px;
